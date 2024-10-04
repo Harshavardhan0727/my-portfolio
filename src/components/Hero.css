@@ -10,22 +10,18 @@ html, body {
 }
 
 #hero {
+    height: 100vh; /* Full viewport height */
     display: flex;
-    flex-direction: column; /* Align items in a column */
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
-    background: url('../assets/desktop-wallpaper-portfolio.jpg') no-repeat center center; /* Adjust this path */
-    background-size: cover; /* Ensure the image covers the entire section */
-    color: white; /* Change text color to match your design */
-    position: relative; /* Required for absolute positioning of h1 */
-    overflow: hidden; /* Prevent scrolling */
+    background-image: url('../assets/desktop-wallpaper-portfolio.jpg'); /* Ensure the path is correct */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
 }
 
 .hero-content {
-    text-align: center; /* Center text horizontally */
-    position: relative; /* Required for absolute positioning of h1 */
+    text-align: center;
+    color: white; /* Or any color that contrasts with the background */
 }
 
 h1, h2, p {
@@ -57,13 +53,34 @@ p {
     font-size: 1.2rem; /* Font size for description */
     margin-top: 20px;
 }
+.hero-content {
+    text-align: center;
+    color: white; /* Or any color that contrasts with the background */
+}
 
 a.btn {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 2px; /* Increased margin to create space above */
     padding: 10px 20px;
-    background-color: #007bff; /* Button color */
+    background-color: #021d3a; /* Button color */
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
 }
+
+.social-links {
+    margin: 80px 0; /* Margin above and below the icons */
+    display: flex; /* Align icons horizontally */
+    justify-content: center; /* Center the icons */
+}
+
+.social-links a {
+    margin: 0 30px; /* Increased margin to add space between icons */
+    color: white; /* Change color as needed */
+    font-size: 40px; /* Increase icon size for Font Awesome icons */
+    transition: color 0.9s; /* Smooth color transition */
+}
+
+
+
+

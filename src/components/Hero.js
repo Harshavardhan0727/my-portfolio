@@ -41,8 +41,25 @@ const Hero = () => {
         <section id="hero">
             <div className="hero-content">
                 <h1>Hello, I'm Harshavardhan Reddy</h1>
-                <h2 className="moving-text">{displayedText}</h2>
-                <p>I'm passionate about building robust and scalable applications, </p>
+                <h2 className="moving-text">
+                    <span>I am </span>
+                    <span>{displayedText}</span>
+                </h2>
+                <p>I'm passionate about building robust and scalable applications.</p>
+                <div className="social-links">
+                    <a href="https://www.linkedin.com/in/harsha-vardhan-reddy-k-802217331/" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Harshavardhan0727" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:harshakasi1996@gmail.com">
+                        <i className="fas fa-envelope"></i>
+                    </a>
+                    <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <i className="fas fa-file-alt"></i>
+                    </a>
+                </div>
                 <a href="#projects" className="btn">View Projects</a>
             </div>
         </section>
