@@ -13,7 +13,7 @@ const Projects = () => {
                 <img src={project1} alt="Project 1" className="project-image" />
                 <div className="project-content">
                     <h3>Tech Mahindra</h3>
-                    <p>Project description goes here. This project is about...</p>
+                    <p>WORK IN PROGRESS</p>
                     <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
@@ -22,7 +22,7 @@ const Projects = () => {
                 <img src={project2} alt="Project 2" className="project-image" />
                 <div className="project-content">
                     <h3>NAU - Graduate Research Assistant</h3>
-                    <p>Project description goes here. This project is about...</p>
+                    <p>WORK IN PROGRESS</p>
                     <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
@@ -31,7 +31,7 @@ const Projects = () => {
                 <img src={project3} alt="Project 3" className="project-image" />
                 <div className="project-content">
                     <h3>UHG - Optum</h3>
-                    <p>Project description goes here. This project is about...</p>
+                    <p>WORK IN PROGRESS</p>
                     <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                 <img src={project4} alt="Project 4" className="project-image" />
                 <div className="project-content">
                     <h3>Ascension Technologies</h3>
-                    <p>Project description goes here. This project is about...</p>
+                    <p>WORK IN PROGRESS</p>
                     <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
