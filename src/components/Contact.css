@@ -1,0 +1,56 @@
+/* Contact.css */
+#contact {
+    padding: 40px;
+    background-color: #f9f9f9; /* Optional: Adjust background color */
+    text-align: center; /* Center-align text */
+}
+
+h2 {
+    margin-bottom: 30px; /* Space below the title */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align form elements */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%; /* Form input width */
+    margin: 10px 0; /* Space between inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.contact-form button {
+    width: 80%; /* Button width */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+.social-icons {
+    margin-top: 20px; /* Space above social icons */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Space between icons */
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}

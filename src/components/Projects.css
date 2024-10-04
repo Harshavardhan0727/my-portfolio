@@ -1,0 +1,52 @@
+/* Projects.css */
+#projects {
+    padding: 40px;
+    background-color: #f9f9f9; /* Optional: Adjust background color */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space between project cards */
+    background: white; /* Background for project cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensure rounded corners are applied to content */
+}
+
+.project-image {
+    width: 25%; /* Change image size to 25% of the card width */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.project-content {
+    padding: 20px; /* Space around content */
+    width: 75%; /* Content takes up the remaining width */
+}
+
+.project-content h3 {
+    margin: 0 0 10px; /* Margin below title */
+}
+
+.project-content p {
+    margin: 0 0 15px; /* Margin below description */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}

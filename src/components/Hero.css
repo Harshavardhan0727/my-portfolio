@@ -1,0 +1,69 @@
+/* Apply a reset to remove margins and paddings globally */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: url('../assets/desktop-wallpaper-portfolio.jpg') no-repeat center center; /* Adjust this path */
+    background-size: cover; /* Ensure the image covers the entire section */
+    color: white; /* Change text color to match your design */
+    position: relative; /* Required for absolute positioning of h1 */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.hero-content {
+    text-align: center; /* Center text horizontally */
+    position: relative; /* Required for absolute positioning of h1 */
+}
+
+h1, h2, p {
+    text-decoration: none; /* Ensure no overline or underline is applied */
+}
+
+h1 {
+    font-size: 3rem; /* Adjust size as needed */
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem; /* Size for typing text */
+    margin: 10px 0;
+    overflow: hidden; /* Prevent overflow */
+    white-space: nowrap; /* Prevent wrapping */
+    border-right: 3px solid white; /* Cursor effect */
+    display: inline-block; /* Ensures the text stays inline */
+    animation: blink 0.75s step-end infinite; /* Blink effect */
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Blink effect */
+    }
+}
+
+p {
+    font-size: 1.2rem; /* Font size for description */
+    margin-top: 20px;
+}
+
+a.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
