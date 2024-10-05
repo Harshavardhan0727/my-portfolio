@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos'; // Import AOS library
+import AOS from 'aos'; 
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import 'aos/dist/aos.css'; // Import AOS styles
+import 'aos/dist/aos.css'; 
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Header />
             <Hero />
             <About />
+            <Technologies />
             <Projects />
             <Contact />
             <Footer />

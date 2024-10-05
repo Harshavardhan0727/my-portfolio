@@ -1,0 +1,80 @@
+#technologies {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.tech-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-container p {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.icon {
+    font-size: 3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon-container:hover {
+    transform: scale(1.0); /* Magnifies icons slightly on hover */
+}
+
+.icon-container:hover .icon {
+    color: #007bff; /* Change color on hover */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Custom colors for each technology */
+.java-icon {
+    color: #007396;
+}
+
+.angular-icon {
+    color: #dd0031;
+}
+
+.react-icon {
+    color: #61DBFB;
+}
+
+.springboot-icon {
+    color: #6DB33F;
+}
+
+.mongodb-icon {
+    color: #47A248;
+}
+
+.github-icon {
+    color: #181717;
+}
+
+.aws-icon {
+    color: #FF9900;
+}
+
+.kubernetes-icon {
+    color: #326CE5;
+}
+
+.docker-icon {
+    color: #2496ED;
+}
