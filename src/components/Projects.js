@@ -14,7 +14,6 @@ const Projects = () => {
                 <div className="project-content">
                     <h3>Tech Mahindra</h3>
                     <p>WORK IN PROGRESS</p>
-                    <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
 
@@ -23,7 +22,6 @@ const Projects = () => {
                 <div className="project-content">
                     <h3>NAU - Graduate Research Assistant</h3>
                     <p>WORK IN PROGRESS</p>
-                    <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
 
@@ -32,7 +30,6 @@ const Projects = () => {
                 <div className="project-content">
                     <h3>UHG - Optum</h3>
                     <p>WORK IN PROGRESS</p>
-                    <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
 
@@ -41,7 +38,6 @@ const Projects = () => {
                 <div className="project-content">
                     <h3>Ascension Technologies</h3>
                     <p>WORK IN PROGRESS</p>
-                    <a href="https://example.com" className="btn">View Project</a>
                 </div>
             </div>
         </section>
