@@ -34,11 +34,11 @@ h2 {
 }
 
 .icon-container:hover {
-    transform: scale(1.0); /* Magnifies icons slightly on hover */
+    transform: scale(1.1);
 }
 
 .icon-container:hover .icon {
-    color: #007bff; /* Change color on hover */
+    color: #007bff;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -53,6 +53,18 @@ h2 {
 
 .react-icon {
     color: #61DBFB;
+}
+
+.html-icon {
+    color: #e34c26;
+}
+
+.css-icon {
+    color: #264de4;
+}
+
+.js-icon {
+    color: #f0db4f;
 }
 
 .springboot-icon {
