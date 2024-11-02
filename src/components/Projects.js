@@ -9,23 +9,18 @@ const Projects = () => {
     return (
         <section id="projects">
             <h2 data-aos="fade-up">My Projects</h2>
+
+            {/* Ascension on top */}
             <div className="project-card" data-aos="fade-right">
-                <img src={project1} alt="Project 1" className="project-image" />
+                <img src={project4} alt="Project 4" className="project-image" />
                 <div className="project-content">
-                    <h3>Tech Mahindra</h3>
+                    <h3>Ascension Technologies</h3>
                     <p>WORK IN PROGRESS</p>
                 </div>
             </div>
 
+            {/* UHG - Optum */}
             <div className="project-card" data-aos="fade-left">
-                <img src={project2} alt="Project 2" className="project-image" />
-                <div className="project-content">
-                    <h3>NAU - Graduate Research Assistant</h3>
-                    <p>WORK IN PROGRESS</p>
-                </div>
-            </div>
-
-            <div className="project-card" data-aos="fade-right">
                 <img src={project3} alt="Project 3" className="project-image" />
                 <div className="project-content">
                     <h3>UHG - Optum</h3>
@@ -33,10 +28,20 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="project-card" data-aos="fade-left">
-                <img src={project4} alt="Project 4" className="project-image" />
+            {/* NAU - Graduate Research Assistant */}
+            <div className="project-card" data-aos="fade-right">
+                <img src={project2} alt="Project 2" className="project-image" />
                 <div className="project-content">
-                    <h3>Ascension Technologies</h3>
+                    <h3>NAU - Graduate Research Assistant</h3>
+                    <p>WORK IN PROGRESS</p>
+                </div>
+            </div>
+
+            {/* Tech Mahindra on the bottom */}
+            <div className="project-card" data-aos="fade-left">
+                <img src={project1} alt="Project 1" className="project-image" />
+                <div className="project-content">
+                    <h3>Tech Mahindra</h3>
                     <p>WORK IN PROGRESS</p>
                 </div>
             </div>
