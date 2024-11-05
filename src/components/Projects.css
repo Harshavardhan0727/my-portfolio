@@ -17,6 +17,11 @@ h2 {
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     overflow: hidden; /* Ensure rounded corners are applied to content */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.project-card:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
 }
 
 .project-image {
@@ -31,10 +36,27 @@ h2 {
 
 .project-content h3 {
     margin: 0 0 10px; /* Margin below title */
+    color: #333; /* Change title color */
 }
 
 .project-content p {
-    margin: 0 0 15px; /* Margin below description */
+    margin: 0 0 10px; /* Margin below description */
+    line-height: 1.4; /* Improve line spacing for readability */
+    color: #666; /* Change text color for better contrast */
+    font-size: 14px; /* Shorten text font size */
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 0.5s forwards; /* Animate to fully visible */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Start slightly below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* End in place */
+    }
 }
 
 .btn {
