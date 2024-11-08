@@ -20,7 +20,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin: 15px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.9s cubic-bezier(0.98, 0.55, 0.27, 6.55); /* Genie effect scaling */
 }
 
 .icon-container p {
@@ -30,16 +30,17 @@ h2 {
 
 .icon {
     font-size: 3rem;
-    transition: all 0.2s ease-in-out;
+    transition: transform 0.8s ease-in-out, color 0.6s;
 }
 
+/* Hover effect for magical genie scaling */
 .icon-container:hover {
-    transform: scale(1.1);
+    transform: scale(3.15);
 }
 
 .icon-container:hover .icon {
     color: #007bff;
-    transition: transform 0.3s ease-in-out;
+    transform: scale(1.6);
 }
 
 /* Custom colors for each technology */
@@ -89,4 +90,20 @@ h2 {
 
 .docker-icon {
     color: #2496ED;
+}
+
+.jenkins-icon {
+    color: #D24939;
+}
+
+.maven-icon {
+    color: #C71A36;
+}
+
+.gradle-icon {
+    color: #02303A;
+}
+
+.webpack-icon {
+    color: #8DD6F9;
 }
