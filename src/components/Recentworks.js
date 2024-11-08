@@ -32,7 +32,7 @@ const FourSections = () => {
       id: 4,
       imageUrl: project4,
       title: "Dow-jones Website Integration",
-      description: "TO-DO",
+      description: "TO-DO - Pending !!",
       techStack: ["SQL", "MongoDB", "Express", "Docker"],
     },
   ];
