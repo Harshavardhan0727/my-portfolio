@@ -1,0 +1,111 @@
+.recent-works {
+  padding: 20px;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+
+.four-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.section {
+  flex-basis: 25%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+  transform: scale(1.05);
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section-image {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.section-description {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 10px 0 20px;
+}
+
+/* Tech stack container with continuous scrolling */
+.tech-stack {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  padding: 0 10px;
+  overflow: hidden; /* Hide the overflow to create a seamless effect */
+  white-space: nowrap;
+}
+
+.tech-stack-inner {
+  display: flex;
+  gap: 8px;
+  animation: scrollLeft 100s linear infinite;
+}
+
+.tech-item {
+  background-color: #d3d3d3;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+/* Smooth scrolling animation for the tech stack */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .four-sections {
+    flex-wrap: wrap;
+  }
+  .section {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex: 1 1 100%;
+  }
+}

@@ -8,7 +8,7 @@ import project4 from '../assets/Ascension.png';
 const Projects = () => {
     return (
         <section id="projects">
-            <h2 data-aos="fade-up">My Projects</h2>
+            <h2 data-aos="fade-up">Work Experience</h2>
 
             {/* Ascension on top */}
             <div className="project-card" data-aos="fade-right">
