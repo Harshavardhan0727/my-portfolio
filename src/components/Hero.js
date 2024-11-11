@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './Hero.css';
 
 const texts = [
-    "Java Fullstack Developer",
-    "Java Backend Developer",
-    "Java Frontend Developer"
+    " Fullstack ",
+    " Backend ",
+    " Frontend "
 ];
 
 const Hero = () => {
@@ -21,13 +21,13 @@ const Hero = () => {
                 setTypingSpeed(100); // Speed while deleting
             } else {
                 setDisplayedText(currentText.substring(0, displayedText.length + 1));
-                setTypingSpeed(150); // Speed while typing
+                setTypingSpeed(100); // Speed while typing
             }
 
             // When the text is fully displayed or deleted
             if (!isDeleting && displayedText === currentText) {
                 setIsDeleting(true);
-                setTypingSpeed(2000); // Wait before deleting
+                setTypingSpeed(1000); // Wait before deleting
             } else if (isDeleting && displayedText === "") {
                 setIsDeleting(false);
                 setTextIndex((textIndex + 1) % texts.length); // Move to the next text
@@ -42,10 +42,10 @@ const Hero = () => {
             <div className="hero-content">
                 <h1>Hello, I'm Harshavardhan Reddy</h1>
                 <h2 className="moving-text">
-                    <span>I am </span>
-                    <span>{displayedText}</span>
+                    <span>  </span>
+                    <span> Java {displayedText} Developer</span>
                 </h2>
-                <p>I'm passionate about building robust and scalable applications.</p>
+                <p>Passionate about developing robust and scalable applications.</p>
                 <div className="social-links">
                     <a href="https://www.linkedin.com/in/harsha-vardhan-reddy-k-802217331/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin"></i>
@@ -60,7 +60,10 @@ const Hero = () => {
                         <i className="fas fa-file-alt"></i>
                     </a>
                 </div>
-                <a href="#projects" className="btn">View Projects</a>
+                <div className="button-group">
+                    <a href="#Recentworks" className="btn">Recent Works</a>
+                    <a href="#projects" className="btn">Work Experience</a>
+                </div>
             </div>
         </section>
     );
