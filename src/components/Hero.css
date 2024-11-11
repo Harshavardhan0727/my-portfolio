@@ -1,4 +1,4 @@
-/* Apply a reset to remove margins and paddings globally */
+/* Reset margins and paddings globally */
 * {
     margin: 0;
     padding: 0;
@@ -10,77 +10,88 @@ html, body {
 }
 
 #hero {
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('../assets/desktop-wallpaper-portfolio.jpg'); /* Ensure the path is correct */
-    background-size: cover; /* Cover the entire section */
-    background-position: center; /* Center the image */
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content {
     text-align: center;
-    color: white; /* Or any color that contrasts with the background */
+    color: white;
 }
 
 h1, h2, p {
-    text-decoration: none; /* Ensure no overline or underline is applied */
+    text-decoration: none;
 }
 
 h1 {
-    font-size: 3rem; /* Adjust size as needed */
+    font-size: 3rem;
     margin: 0;
 }
 
 h2 {
-    font-size: 2.5rem; /* Size for typing text */
+    font-size: 2.5rem;
     margin: 10px 0;
-    overflow: hidden; /* Prevent overflow */
-    white-space: nowrap; /* Prevent wrapping */
-    border-right: 3px solid white; /* Cursor effect */
-    display: inline-block; /* Ensures the text stays inline */
-    animation: blink 0.75s step-end infinite; /* Blink effect */
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    display: inline-block;
+    animation: blink 2.5s step-end infinite;
 }
 
 @keyframes blink {
     50% {
-        border-color: transparent; /* Blink effect */
+        border-color: transparent;
     }
 }
 
 p {
-    font-size: 1.2rem; /* Font size for description */
+    font-size: 1.2rem;
     margin-top: 20px;
 }
-.hero-content {
-    text-align: center;
-    color: white; /* Or any color that contrasts with the background */
+
+.button-group {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+    justify-content: center;
+    margin-top: 20px;
 }
 
 a.btn {
     display: inline-block;
-    margin-top: 2px; /* Increased margin to create space above */
     padding: 10px 20px;
-    background-color: #021d3a; /* Button color */
+    background-color: #021d3a;
     color: white;
     border-radius: 10px;
     text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.btn:hover {
+    background-color: #014f86;
+}
+
+a.btn:active {
+    transform: scale(0.95); /* Click animation: shrink slightly */
 }
 
 .social-links {
-    margin: 80px 0; /* Margin above and below the icons */
-    display: flex; /* Align icons horizontally */
-    justify-content: center; /* Center the icons */
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .social-links a {
-    margin: 0 30px; /* Increased margin to add space between icons */
-    color: white; /* Change color as needed */
-    font-size: 40px; /* Increase icon size for Font Awesome icons */
-    transition: color 0.9s; /* Smooth color transition */
+    margin: 0 15px;
+    color: white;
+    font-size: 40px;
+    transition: color 0.3s ease;
 }
 
-
-
-
+.social-links a:hover {
+    color: #f1c40f;
+}
