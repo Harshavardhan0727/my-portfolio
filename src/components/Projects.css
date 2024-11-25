@@ -2,6 +2,7 @@
 #projects {
     padding: 40px;
     background-color: #f9f9f9; /* Optional: Adjust background color */
+    overflow-x: hidden;
 }
 
 h2 {
