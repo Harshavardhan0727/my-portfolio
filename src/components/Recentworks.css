@@ -56,7 +56,6 @@
   margin: 10px 0 20px;
 }
 
-/* Tech stack container with continuous scrolling */
 .tech-stack {
   display: flex;
   gap: 5px;
@@ -65,7 +64,7 @@
   left: 0;
   width: 100%;
   padding: 0 10px;
-  overflow: hidden; /* Hide the overflow to create a seamless effect */
+  overflow: hidden; 
   white-space: nowrap;
 }
 
@@ -84,7 +83,6 @@
   display: inline-block;
 }
 
-/* Smooth scrolling animation for the tech stack */
 @keyframes scrollLeft {
   0% {
     transform: translateX(0);
@@ -94,7 +92,6 @@
   }
 }
 
-/* Responsive adjustments */
 @media (max-width: 1024px) {
   .four-sections {
     flex-wrap: wrap;

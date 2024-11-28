@@ -14,9 +14,9 @@ import './App.css';
 function App() {
   useEffect(() => {
       AOS.init({
-          duration: 1000, // Animation duration
-          delay: 200, // Delay between animations
-          once: false // Ensures animation happens every time the element comes into view
+          duration: 1000, 
+          delay: 200, 
+          once: false 
       });
   }, []);
 

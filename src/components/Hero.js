@@ -11,26 +11,25 @@ const Hero = () => {
     const [displayedText, setDisplayedText] = useState("");
     const [textIndex, setTextIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const [typingSpeed, setTypingSpeed] = useState(150); // Speed of typing/deleting
+    const [typingSpeed, setTypingSpeed] = useState(150); 
 
     useEffect(() => {
         const currentText = texts[textIndex];
         const timeout = setTimeout(() => {
             if (isDeleting) {
                 setDisplayedText(currentText.substring(0, displayedText.length - 1));
-                setTypingSpeed(100); // Speed while deleting
+                setTypingSpeed(100); 
             } else {
                 setDisplayedText(currentText.substring(0, displayedText.length + 1));
-                setTypingSpeed(100); // Speed while typing
+                setTypingSpeed(100);
             }
 
-            // When the text is fully displayed or deleted
             if (!isDeleting && displayedText === currentText) {
                 setIsDeleting(true);
-                setTypingSpeed(1000); // Wait before deleting
+                setTypingSpeed(1000); 
             } else if (isDeleting && displayedText === "") {
                 setIsDeleting(false);
-                setTextIndex((textIndex + 1) % texts.length); // Move to the next text
+                setTextIndex((textIndex + 1) % texts.length); 
             }
         }, typingSpeed);
 
