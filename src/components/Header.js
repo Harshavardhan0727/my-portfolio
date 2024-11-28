@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header>
         
-            {/* Add navigation links if needed */}
+
         </header>
     );
 };

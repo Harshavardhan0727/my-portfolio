@@ -1,7 +1,6 @@
-/* Projects.css */
 #projects {
     padding: 40px;
-    background-color: #f9f9f9; /* Optional: Adjust background color */
+    background-color: #f9f9f9;
     overflow-x: hidden;
 }
 
@@ -11,65 +10,65 @@ h2 {
 }
 
 .project-card {
-    display: flex; /* Use flexbox for horizontal alignment */
-    align-items: center; /* Center items vertically */
-    margin-bottom: 20px; /* Space between project cards */
-    background: white; /* Background for project cards */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    overflow: hidden; /* Ensure rounded corners are applied to content */
-    transition: transform 0.3s; /* Animation on hover */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
 }
 
 .project-card:hover {
-    transform: scale(1.02); /* Slightly scale up on hover */
+    transform: scale(1.02);
 }
 
 .project-image {
-    width: 25%; /* Change image size to 25% of the card width */
-    object-fit: cover; /* Ensure the image covers the container */
+    width: 25%;
+    object-fit: cover;
 }
 
 .project-content {
-    padding: 20px; /* Space around content */
-    width: 75%; /* Content takes up the remaining width */
+    padding: 20px;
+    width: 75%;
 }
 
 .project-content h3 {
-    margin: 0 0 10px; /* Margin below title */
-    color: #333; /* Change title color */
+    margin: 0 0 10px;
+    color: #333;
 }
 
 .project-content p {
-    margin: 0 0 10px; /* Margin below description */
-    line-height: 1.4; /* Improve line spacing for readability */
-    color: #666; /* Change text color for better contrast */
-    font-size: 14px; /* Shorten text font size */
-    opacity: 0; /* Start invisible */
-    animation: fadeIn 0.5s forwards; /* Animate to fully visible */
+    margin: 0 0 10px;
+    line-height: 1.4;
+    color: #666;
+    font-size: 14px;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(10px); /* Start slightly below */
+        transform: translateY(10px);
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* End in place */
+        transform: translateY(0);
     }
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Button color */
+    background-color: #007bff;
     color: white;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s; /* Smooth transition on hover */
+    transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #0056b3; /* Darker button color on hover */
+    background-color: #0056b3;
 }

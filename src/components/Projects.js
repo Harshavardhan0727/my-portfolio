@@ -10,7 +10,7 @@ const Projects = () => {
         <section id="projects">
             <h2 data-aos="fade-up">Work Experience</h2>
 
-            {/* Ascension on top */}
+      
             <div className="project-card" data-aos="fade-right">
                 <img src={project4} alt="Project 4" className="project-image" />
                 <div className="project-content">
@@ -19,7 +19,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            {/* UHG - Optum */}
+           
             <div className="project-card" data-aos="fade-left">
                 <img src={project3} alt="Project 3" className="project-image" />
                 <div className="project-content">
@@ -36,7 +36,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            {/* NAU - Graduate Research Assistant */}
+            
             <div className="project-card" data-aos="fade-right">
                 <img src={project2} alt="Project 2" className="project-image" />
                 <div className="project-content">
@@ -47,7 +47,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            {/* Tech Mahindra on the bottom */}
+           
             <div className="project-card" data-aos="fade-left">
                 <img src={project1} alt="Project 1" className="project-image" />
                 <div className="project-content">
