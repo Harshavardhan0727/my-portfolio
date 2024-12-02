@@ -88,9 +88,25 @@ a.btn:active {
     margin: 0 15px;
     color: white;
     font-size: 40px;
-    transition: color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-links a:hover {
+    color: #f1c40f;
+    transform: scale(1.2) rotate(10deg);
+}
+
+/* Optional Bounce Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.social-links a:hover {
+    animation: bounce 0.6s ease;
     color: #f1c40f;
 }
