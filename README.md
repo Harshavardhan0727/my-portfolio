@@ -2,20 +2,20 @@
 
 Hi! 👋 I'm Harshavardhan Reddy, a passionate Java Full-Stack Developer who loves building scalable and efficient web applications. I specialize in creating seamless integrations between robust back-end systems and engaging front-end experiences.
 
-Programming Language
+Programming Language : 
 Java, JavaScript, Python, C#.
 
-Backend Frameworks
+Backend Frameworks : 
 Spring Framework 🌱
 Spring Boot 🚀
 Hibernate 🛠️
 JPA (Java Persistence API) 📘
 
-Build Tools
+Build Tools : 
 Maven 📦
 Gradle 🔨
 
-Frontend Technologies
+Frontend Technologies : 
 HTML5 🌐
 CSS3 🎨
 JavaScript ✨
@@ -23,12 +23,12 @@ TypeScript 🟦
 Angular 📐
 React ⚛️
 
-Databases
+Databases : 
 MySQL 🐬
 PostgreSQL 🐘
 MongoDB 🍃
 
-DevOps & Deployment
+DevOps & Deployment : 
 Docker 🐳
 Kubernetes ☸️
 Jenkins 🧩
@@ -37,13 +37,13 @@ EC2 🖥️
 S3 📂
 RDS 💾
 
-Testing Frameworks
+Testing Frameworks : 
 JUnit 🧪
 Mockito 🤹
 Selenium 🕸️
 Cucumber 🥒
 
-Others
+Others : 
 Apache Kafka 📨
 Apache Tomcat 🦁
 JMS (Java Message Service) ✉️
