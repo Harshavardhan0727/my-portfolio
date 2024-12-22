@@ -15,7 +15,15 @@ const Projects = () => {
                 <img src={project4} alt="Project 4" className="project-image" />
                 <div className="project-content">
                     <h3>Ascension Technologies</h3>
-                    <p>WORK IN PROGRESS</p>
+                    <p>
+                    Developed single-page applications (SPAs) using ReactJS, leveraging HTML5 DOM features to update dynamic content efficiently. Created various front-end screens with ReactJS and utilized pre-built components from NPM for streamlined development. Built and maintained complex software components, adhering to department standards, including JSP, JSTL, EJB, JMS, JAX-WS, REST APIs, and Java Mail. Used Java, J2EE, Struts, and JDBC to develop robust applications.
+                    </p>
+                    <p>
+                    Built microservices to retrieve and store data with Couchbase using the Couchbase SDK Java client. Employed JWT tokens for secure REST service authentication. Developed backend services to interact with Oracle 12c using JDBC templates and created essential PL/SQL scripts for database operations.
+                    </p>
+                    <p>
+                    Managed deployments of microservices in Docker containers on Amazon EC2 via AWS Admin Console. Implemented a continuous delivery pipeline using Docker, Jenkins, GitHub, and AWS AMIs. Designed and executed JUnit test cases for service validation and developed Cucumber test cases with step definitions to conduct integration and UAT testing.
+                    </p>
                 </div>
             </div>
 
@@ -25,13 +33,7 @@ const Projects = () => {
                 <div className="project-content">
                     <h3>UHG - Optum</h3>
                     <p>
-                    Developed single-page applications (SPAs) using ReactJS, leveraging HTML5 DOM features to update dynamic content efficiently. Created various front-end screens with ReactJS and utilized pre-built components from NPM for streamlined development. Built and maintained complex software components, adhering to department standards, including JSP, JSTL, EJB, JMS, JAX-WS, REST APIs, and Java Mail. Used Java, J2EE, Struts, and JDBC to develop robust applications.
-                    </p>
-                    <p>
-                    Built microservices to retrieve and store data with Couchbase using the Couchbase SDK Java client. Employed JWT tokens for secure REST service authentication. Developed backend services to interact with Oracle 12c using JDBC templates and created essential PL/SQL scripts for database operations.
-                    </p>
-                    <p>
-                    Managed deployments of microservices in Docker containers on Amazon EC2 via AWS Admin Console. Implemented a continuous delivery pipeline using Docker, Jenkins, GitHub, and AWS AMIs. Designed and executed JUnit test cases for service validation and developed Cucumber test cases with step definitions to conduct integration and UAT testing.
+                    
                     </p>
                 </div>
             </div>
