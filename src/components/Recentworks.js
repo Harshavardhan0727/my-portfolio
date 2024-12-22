@@ -38,7 +38,7 @@ const FourSections = () => {
   ];
 
   return (
-    <section className="recent-works">
+    <section className="recent-works" id = "recentWorks">
       <h2 className="section-heading">Recent Works</h2>
       <div className="four-sections">
         {sections.map((section) => (

@@ -60,7 +60,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div className="button-group">
-                    <a href="#Recentworks" className="btn">Recent Works</a>
+                    <a href="#recentWorks" className="btn">Recent Works</a>
                     <a href="#projects" className="btn">Work Experience</a>
                 </div>
             </div>
