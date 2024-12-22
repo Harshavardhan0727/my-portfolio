@@ -33,7 +33,14 @@ const Projects = () => {
                 <div className="project-content">
                     <h3>UHG - Optum</h3>
                     <p>
-                    
+                    Developed UI pages using HTML5, Angular, Bootstrap, CSS3, JavaScript, jQuery, AJAX. Developed asynchronous services call in Angular with Typescript and transacted data in JSON format between   back-end and front-end applications. Used Angular features- data binding, routing, custom filters, custom directives. Involved in developing role based Angular navigation menu, where menu items change dynamically based on the values derived from the database in the form of JSON data.
+                    </p>
+                    <p>
+                    Developed Web services to allow communication between applications through REST. Extensively used Spring IOC, configured Application Context files and performed database object mapping using  Hibernate annotations. Developed microservices with SpringBoot services interacting through a combination of REST and Apache Kafka     message brokers.
+                    </p>
+                    <p>
+                    Deploy SpringBoot based MicroServices, Docker container using Amazon EC2 container services and using AWS.Integrated Automation scripts (Selenium Web Driver API) on Continuous Integration tools Jenkins for nightly batch run of the Script. Created Project plan on Jenkins, configured scheduled using Cron job. Used Log4j for logging various levels of information like error, info, and debugging into the log files.
+
                     </p>
                 </div>
             </div>
