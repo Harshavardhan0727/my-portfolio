@@ -11,28 +11,24 @@ const FourSections = () => {
       id: 1,
       imageUrl: project1,
       title: "Athena EHR Dashboards",
-      description: "TO-DO",
       techStack: ["JavaScript", "Java", "React", "SpringBoot", "NoSQL", "GitHub", "Maven", "Docker", "GCP"],
     },
     {
       id: 2,
       imageUrl: project2,
       title: "UHG Websites and Integrations",
-      description: "TO-DO",
       techStack: ["SpringBoot", "Java", "Javascript","React", "HTML", "CSS", "AWS", "Gradle", "Jenkins", "Kubernetes", "Kafka"],
     },
     {
       id: 3,
       imageUrl: project3,
       title: "Deep learning (ML & AI)",
-      description: "TO-DO",
       techStack: ["Machine Learning", "Python", "Neural Networks", "TensorFlow"],
     },
     {
       id: 4,
       imageUrl: project4,
       title: "Dow-jones Website Integration",
-      description: "TO-DO - Pending !!",
       techStack: ["SQL", "MongoDB", "Express", "Docker"],
     },
   ];
