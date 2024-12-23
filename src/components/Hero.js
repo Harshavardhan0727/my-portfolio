@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
+import resume from '../assets/HarshavardhanreddyResume.pdf';
+
 
 const texts = [
     " Fullstack ",
@@ -55,8 +57,8 @@ const Hero = () => {
                     <a href="mailto:harshakasi1996@gmail.com">
                         <i className="fas fa-envelope"></i>
                     </a>
-                    <a href="src/assets/HarshavardhanreddyResume.pdf" target="_blank" rel="noopener noreferrer">
-                        <i className="fas fa-file-alt"></i>
+                    <a href={resume} target="_blank" rel="noopener noreferrer">
+                     <i className="fas fa-file-alt"></i>
                     </a>
                 </div>
                 <div className="button-group">
