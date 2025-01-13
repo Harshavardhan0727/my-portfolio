@@ -54,3 +54,82 @@ h2 {
 .social-icons a:hover {
     color: #007bff; 
 }
+/* Superhero Wrapper */
+.superhero-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 400px;
+    z-index: 1000;
+    pointer-events: none; /* Prevent interaction */
+}
+
+/* Superhero */
+.superhero {
+    position: relative;
+    width: 40px;
+    height: 80px;
+    margin: 0 auto;
+    animation: fly-up 3s ease-in-out forwards;
+}
+
+/* Head */
+.superhero .head {
+    width: 30px;
+    height: 30px;
+    background: #ff0000; /* Iron Man's helmet-like color */
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Body */
+.superhero .body {
+    width: 40px;
+    height: 50px;
+    background: #f39c12; /* Golden torso */
+    position: absolute;
+    top: 30px;
+    border-radius: 5px;
+}
+
+/* Flames */
+.superhero .flames {
+    width: 10px;
+    height: 30px;
+    background: linear-gradient(to bottom, #ff4500, transparent);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    animation: flames 0.5s infinite;
+}
+
+/* Flying Up Animation */
+@keyframes fly-up {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+}
+
+/* Flame Flicker Animation */
+@keyframes flames {
+    0%, 100% {
+        height: 30px;
+    }
+    50% {
+        height: 40px;
+    }
+}
+
+
