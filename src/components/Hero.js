@@ -6,7 +6,7 @@ import resume from '../assets/HarshavardhanreddyResume.pdf';
 const texts = [
     " Fullstack ",
     " Backend ",
-    " Frontend "
+    " Script Frontend "
 ];
 
 const Hero = () => {
@@ -65,6 +65,7 @@ const Hero = () => {
                     <a href="#technologies" className="btn">Tech Stack</a>
                     <a href="#recentWorks" className="btn">Recent Works</a>
                     <a href="#projects" className="btn">Work Experience</a>
+                    <a href="#contact" className="btn">Contact Me</a>
                 </div>
             </div>
         </section>
