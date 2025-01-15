@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './Hero.css';
 import resume from '../assets/HarshavardhanreddyResume.pdf';
 
-
 const texts = [
-    " Fullstack ",
-    " Backend ",
-    " Script Frontend "
+    " Java Fullstack ",
+    " Java Backend ",
+    "Frontend ",
+    " Web "
 ];
 
 const Hero = () => {
@@ -43,8 +43,8 @@ const Hero = () => {
             <div className="hero-content">
                 <h1>Hello, I'm Harshavardhan Reddy</h1>
                 <h2 className="moving-text">
-                    <span>  </span>
-                    <span> Java {displayedText} Developer</span>
+                    <span className="smaller-text">  </span>
+                    <span className="smaller-text">{displayedText} Developer</span>
                 </h2>
                 <p>Passionate about developing robust and scalable applications.</p>
                 <div className="social-links">
@@ -58,7 +58,7 @@ const Hero = () => {
                         <i className="fas fa-envelope"></i>
                     </a>
                     <a href={resume} target="_blank" rel="noopener noreferrer">
-                     <i className="fas fa-file-alt"></i>
+                        <i className="fas fa-file-alt"></i>
                     </a>
                 </div>
                 <div className="button-group">
