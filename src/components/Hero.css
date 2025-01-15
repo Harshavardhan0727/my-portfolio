@@ -49,20 +49,21 @@ h2 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     margin-top: 20px;
 }
 
 .button-group {
     display: flex;
-    gap: 15px; 
+    gap: 12px; 
     justify-content: center;
     margin-top: 20px;
 }
 
 a.btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 16px;  
+    font-size: 0.8rem; 
     background-color: #021d3a;
     color: white;
     border-radius: 10px;
@@ -115,4 +116,8 @@ a.btn:hover {
     background-color: #014f86;
     transform: scale(1.1) translateY(-5px); 
     box-shadow: 0px 5px 15px rgba(1, 79, 134, 0.5); 
+}
+
+.smaller-text {
+    font-size: 1.7rem;  
 }
