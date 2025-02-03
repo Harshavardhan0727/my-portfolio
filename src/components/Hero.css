@@ -37,7 +37,6 @@ h2 {
     margin: 10px 0;
     overflow: hidden;
     white-space: wrap;
-    border-right: 3px solid white;
     display: inline-block;
     animation: blink 2.5s step-end infinite;
 }
